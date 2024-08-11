@@ -12,10 +12,9 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from cpmnuker import CPMNuker
 
-__CHANNEL_USERNAME__ = "CPMNuker"
-__GROUP_USERNAME__   = "CPMNukerChat"
+__CHANNEL_USERNAME__ = "CPMAYAN"
+__GROUP_USERNAME__   = "CPMAYANCHAT"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -53,7 +52,7 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    console.print("[bold green]♕ CPMNuker[/bold green]: Car Parking Multiplayer Hacking Tool.")
+    console.print("[bold green]♕ 🇵🇰 CPMAYAN 🇵🇰[/bold green]: Car Parking Multiplayer Hacking Tool.")
     console.print(f"[bold green]♕ Telegram[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
     console.print("[bold red]==================================================[/bold red]")
     console.print("[bold yellow]! Note[/bold yellow]: Logout from CPM before using this tool !.", end="\n\n")
